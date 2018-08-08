@@ -52,6 +52,8 @@ RUN \
 		libaio-dev \
 		markdown \
 		pandoc \
+		liblzma-dev \
+		wget \
 	&& apt-get clean
 
 RUN mkdir /home/xen/.ccache && \

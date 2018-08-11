@@ -59,5 +59,5 @@ RUN \
 RUN mkdir /home/xen/.ccache && \
 	chown xen:xen /home/xen/.ccache
 
-VOLUME /home/coreboot/.ccache
+VOLUME /home/xen/.ccache
 USER xen

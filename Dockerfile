@@ -26,6 +26,7 @@ RUN \
 		mercurial \
 		make \
 		gcc \
+		libc6-dev-i386 \
 		libc6-dev \
 		zlib1g-dev \
 		python \
@@ -52,6 +53,7 @@ RUN \
 		libaio-dev \
 		markdown \
 		pandoc \
+		libsystemd-dev \
 		liblzma-dev \
 		wget \
 	&& apt-get clean

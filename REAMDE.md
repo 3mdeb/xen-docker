@@ -1,7 +1,7 @@
 Docker environment for Xen development
 ======================================
 
-This repository contains Dockerfiel with all dependencies and tools required
+This repository contains Dockerfile with all dependencies and tools required
 for building Xen.
 
 ## Building container

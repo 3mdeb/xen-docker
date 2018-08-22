@@ -59,8 +59,8 @@ RUN \
 		zlib1g-dev \
 	&& apt-get clean
 
+ENV PATH="/usr/lib/ccache:${PATH}"
 RUN mkdir /home/xen/.ccache && \
 	chown xen:xen /home/xen/.ccache
 
-VOLUME /home/xen/.ccache
 USER xen

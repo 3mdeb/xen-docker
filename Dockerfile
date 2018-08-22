@@ -6,54 +6,57 @@ RUN \
 	useradd -p locked -m xen && \
 	apt-get -qq update && \
 	apt-get -qqy install \
-		build-essential \
 		bcc \
 		bin86 \
-		gawk \
+		bison \
 		bridge-utils \
+		build-essential \
+		bzip2 \
+		ccache \
+		e2fslibs-dev \
+		flex \
+		gawk \
+		gcc \
+		gettext \
+		git-core \
+		iasl \
 		iproute \
+		libaio-dev \
+		libbz2-dev \
+		libc6-dev \
+		libc6-dev-i386 \
 		libcurl3 \
 		libcurl4-openssl-dev \
-		bzip2 \
-		transfig \
-		tgif \
-		texinfo \
-		texlive-latex-base \
-		texlive-latex-recommended \
-		texlive-fonts-extra \
-		texlive-fonts-recommended \
-		pciutils-dev \
-		mercurial \
+		liblzma-dev \
+		libncurses5-dev \
+		libpixman-1-dev \
+		libsdl-dev \
+		libsystemd-dev \
+		libvncserver-dev \
+		libx11-dev \
+		libyajl-dev \
 		make \
-		gcc \
-		libc6-dev \
-		zlib1g-dev \
+		markdown \
+		mercurial \
+		ocaml \
+		ocaml-findlib \
+		pandoc \
+		patch \
+		pciutils-dev \
 		python \
 		python-dev \
 		python-twisted \
-		libncurses5-dev \
-		patch \
-		libvncserver-dev \
-		libsdl-dev \
-		iasl \
-		libbz2-dev \
-		e2fslibs-dev \
-		git-core \
+		texinfo \
+		texlive-fonts-extra \
+		texlive-fonts-recommended \
+		texlive-latex-base \
+		texlive-latex-recommended \
+		tgif \
+		transfig \
 		uuid-dev \
-		ocaml \
-		ocaml-findlib \
-		libx11-dev \
-		bison \
-		flex \
-		xz-utils \
-		libyajl-dev \
-		gettext \
-		libpixman-1-dev \
-		libaio-dev \
-		markdown \
-		pandoc \
-		liblzma-dev \
 		wget \
+		xz-utils \
+		zlib1g-dev \
 	&& apt-get clean
 
 RUN mkdir /home/xen/.ccache && \

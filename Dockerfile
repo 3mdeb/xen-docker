@@ -20,12 +20,12 @@ RUN \
 		gettext \
 		git-core \
 		iasl \
-		iproute \
+		iproute2 \
 		libaio-dev \
 		libbz2-dev \
 		libc6-dev \
 		libc6-dev-i386 \
-		libcurl3 \
+		libcurl4 \
 		libcurl4-openssl-dev \
 		liblzma-dev \
 		libncurses5-dev \

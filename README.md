@@ -1,6 +1,8 @@
 Docker environment for Xen development
 ======================================
 
+[![Build Status](https://travis-ci.com/3mdeb/xen-docker.svg?branch=master)](https://travis-ci.com/3mdeb/xen-docker)
+
 This repository contains Dockerfile with all dependencies and tools required
 for building Xen.
 

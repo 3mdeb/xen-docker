@@ -45,6 +45,7 @@ RUN \
 		pciutils-dev \
 		python \
 		python-dev \
+		python3-dev \
 		python-twisted \
 		texinfo \
 		texlive-fonts-extra \

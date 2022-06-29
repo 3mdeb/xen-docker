@@ -38,15 +38,15 @@ RUN \
 		make \
 		markdown \
 		mercurial \
+		meson \
 		ocaml \
 		ocaml-findlib \
 		pandoc \
 		patch \
-		pciutils-dev \
+		libpci-dev \
 		python \
 		python-dev \
 		python3-dev \
-		python-twisted \
 		texinfo \
 		texlive-fonts-extra \
 		texlive-fonts-recommended \

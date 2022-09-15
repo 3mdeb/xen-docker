@@ -2,6 +2,8 @@ FROM debian:stable
 
 MAINTAINER Piotr Król <piotr.krol@3mdeb.com>
 
+ENV http_proxy ${http_proxy}
+
 RUN \
 	useradd -p locked -m xen && \
 	apt-get -qq update && \
